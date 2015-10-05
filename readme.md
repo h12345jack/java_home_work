@@ -1,25 +1,26 @@
-#ÏîÄ¿ËµÃ÷
+#é¡¹ç›®è¯´æ˜
 
 <pre>
 E:.
-©¸©¤zy
-    ©À©¤ch1
-    ©À©¤ch2
-    ©À©¤h1
-    ©À©¤prepraration
-    ©¸©¤resultshow
+â””â”€zy
+    â”œâ”€ch1
+    â”œâ”€ch2
+    â”œâ”€h1
+    â”œâ”€prepraration
+    â””â”€resultshow
 
 </pre>
-###ch1  HtmlParse²âÊÔÏîÄ¿
-###ch2  HtmlParse²âÊÔÏîÄ¿
-###h1   heritrixÅÀ³æÏîÄ¿ admin:jack
-###prepraration ×¼±¸¹¤×÷ÏîÄ¿ 
-1.	buildtheindex ½¨Á¢Ë÷Òı
-2.	dealthehtml ÍøÒ³½âÎö
-3.	querytheindex ¼ìË÷
-4.	testtanalyzer ÇĞ´ÊÆ÷²âÊÔ
-5.	°üÀ¨½¨Ë÷Òı£¬ÍøÒ³½âÎö£¬·ÖÎöÆ÷²âÊÔµÈ
-###resultshow  ×îºóµÄÕ¹Ê¾ÏîÄ¿
-###www.im.pku.edu.cn.rar  ĞÅÏ¢¹ÜÀíÏµÍøÕ¾´ò°ü
-###chinese.pku.edu.cn.rar ÖĞÎÄÏµÍøÕ¾´ò°ü
+###ch1  HtmlParseæµ‹è¯•é¡¹ç›®
+###ch2  HtmlParseæµ‹è¯•é¡¹ç›®
+###h1   heritrixçˆ¬è™«é¡¹ç›® admin:jack
+###prepraration å‡†å¤‡å·¥ä½œé¡¹ç›® 
+1.	buildtheindex å»ºç«‹ç´¢å¼•
+2.	dealthehtml ç½‘é¡µè§£æ
+3.	querytheindex æ£€ç´¢
+4.	testtanalyzer åˆ‡è¯å™¨æµ‹è¯•
+5.	åŒ…æ‹¬å»ºç´¢å¼•ï¼Œç½‘é¡µè§£æï¼Œåˆ†æå™¨æµ‹è¯•ç­‰
+
+###resultshow  æœ€åçš„å±•ç¤ºé¡¹ç›®
+###www.im.pku.edu.cn.rar  ä¿¡æ¯ç®¡ç†ç³»ç½‘ç«™æ‰“åŒ…
+###chinese.pku.edu.cn.rar ä¸­æ–‡ç³»ç½‘ç«™æ‰“åŒ…
 ###dzy.sql
