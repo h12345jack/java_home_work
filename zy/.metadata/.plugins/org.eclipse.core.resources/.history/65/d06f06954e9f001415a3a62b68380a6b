@@ -1,0 +1,184 @@
+package rs1;
+import java.io.*; //1行
+
+import java.io.File;
+import  java.io.IOException;      
+     
+import  org.apache.lucene.analysis.Analyzer;      
+import org.apache.lucene.analysis.TokenStream;
+import  org.apache.lucene.analysis.standard.StandardAnalyzer;      
+import org.apache.lucene.document.Document;
+import org.apache.lucene.index.IndexReader;
+import  org.apache.lucene.queryParser.ParseException;      
+import  org.apache.lucene.queryParser.QueryParser;      
+import  org.apache.lucene.search.IndexSearcher;      
+import  org.apache.lucene.search.Query;      
+import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.highlight.*;
+import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.SimpleFSDirectory;
+import org.apache.lucene.util.Version;
+import org.wltea.analyzer.lucene.IKAnalyzer;
+public class final1 {
+	String query="北大中文系";
+	int flag=0;
+	public String getQuery() {
+		return query;
+	}
+	public void setQuery(String query) {
+		this.query = query;
+	}
+	public int getFlag() {
+		return flag;
+	}
+	public void setFlag(int flag) {
+		this.flag = flag;
+	}
+	public int getPage(int i) throws IOException{
+		if(i==0)//标题
+		{
+			String queryString  =  query ;      
+	        Query query  =   null ;   
+	        System.out.println("here");
+	        Directory directory = new SimpleFSDirectory(new File(".\\index"));
+	        Analyzer luceneAnalyzer=new IKAnalyzer(true);
+	        IndexSearcher searcher  =   new  IndexSearcher(IndexReader.open( directory));      
+	        QueryParser qp  =   new  QueryParser( Version.LUCENE_35,"title", luceneAnalyzer);  
+	        try {
+				query  =  qp.parse(queryString);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}   
+	        TopDocs hits  =  searcher.search(query,10);
+	        return hits.totalHits;
+		}else
+		{
+			String queryString  =  query ;      
+	        Query query  =   null ;   
+	        System.out.println("here");
+	        Directory directory = new SimpleFSDirectory(new File(".\\index"));
+	        Analyzer luceneAnalyzer=new IKAnalyzer(true);
+	        IndexSearcher searcher  =   new  IndexSearcher(IndexReader.open( directory));      
+	        QueryParser qp  =   new  QueryParser( Version.LUCENE_35,"content", luceneAnalyzer);  
+	        try {
+				query  =  qp.parse(queryString);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}   
+	        TopDocs hits  =  searcher.search(query,10);
+	        return hits.totalHits;
+		}
+		
+	}
+	public String theresult(int i) throws IOException, ParseException, InvalidTokenOffsetsException{
+		if(this.flag==0)
+		return findtitle(i);
+		else
+		return findcontent(i);
+	
+	}
+	public String findcontent(int i)throws IOException
+	{
+		StringBuffer rs=new StringBuffer();
+		String queryString  =  query ;      
+        Query query  =   null ;   //索引地址
+        System.out.println(this.flag);//调试用
+        System.out.println("============findcontent===========");//调试用
+        Directory directory = new SimpleFSDirectory(new File(".\\index"));
+        Analyzer luceneAnalyzer=new IKAnalyzer(true);//
+        IndexSearcher searcher  =   new  IndexSearcher(IndexReader.open( directory));      
+        QueryParser qp  =   new  QueryParser( Version.LUCENE_35,"content", luceneAnalyzer);  
+        try {
+			query  =  qp.parse(queryString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}   
+        TopDocs hits  =  searcher.search(query,1000);
+        rs.append("<div class=\"gsc-result-info\">"+this.query+"找到："+hits.totalHits+"  个结果! </div>");
+        QueryScorer scorer=new QueryScorer(query,"content");
+        Fragmenter fragmenter = new SimpleFragmenter(200);
+        Formatter formatter = new SimpleHTMLFormatter("<span class='red'>","</span>");
+        Highlighter highlighter=new Highlighter(formatter,scorer);
+        highlighter.setTextFragmenter(fragmenter);
+        System.out.println(i);
+        for(int j=i*10;j<i*10+10&&j<hits.totalHits;j++){
+        	System.out.println(j);
+        	ScoreDoc scoreDoc=hits.scoreDocs[j];
+        	rs.append("<div class=\"gs-result\">");
+        	Document doc=searcher.doc(scoreDoc.doc);
+        	String content=doc.get("content");
+        	rs.append("<div class=\"gs-title\"><a href=\""+"http://chinese.pku.edu.cn"+doc.get("URL")+"\">"+doc.get("title")+"</a></div>");	//System.out.println(doc.get("title"));
+        	rs.append("<div class=\"gs-visibleUrl\"><a href=\""+"http://chinese.pku.edu.cn"+doc.get("URL")+"\">" +"chinese.pku.edu.cn"+doc.get("URL")+" </a></div>");	//System.out.println(doc.get("id"))URL;
+        	System.out.println(scoreDoc.score);
+        	TokenStream stream=TokenSources.getAnyTokenStream(searcher.getIndexReader(), scoreDoc.doc, "content", luceneAnalyzer);
+        		String fragment;
+				try {
+					fragment = highlighter.getBestFragment(stream, content);
+					rs.append("<div class=\"gs-snippet\">"+fragment+" </div>");//	System.out.println(fragment);
+				} catch (InvalidTokenOffsetsException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+        	
+        	rs.append(" </div>");
+        
+        }
+        return new String(rs);
+	}
+	public String findtitle(int i) throws IOException
+	{
+		StringBuffer rs=new StringBuffer();
+		String queryString  =  query ;      
+        Query query  =   null ;   //索引地址
+        System.out.println(this.flag);//调试用
+        System.out.println("============findtitle===========");//调试用
+        Directory directory = new SimpleFSDirectory(new File(".\\index"));
+        Analyzer luceneAnalyzer=new IKAnalyzer(true);//
+        IndexSearcher searcher  =   new  IndexSearcher(IndexReader.open( directory));      
+        QueryParser qp  =   new  QueryParser( Version.LUCENE_35,"title", luceneAnalyzer);  
+        try {
+			query  =  qp.parse(queryString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}   
+        TopDocs hits  =  searcher.search(query,1000);
+        rs.append("<div class=\"gsc-result-info\">"+this.query+"找到："+hits.totalHits+"  个结果! </div>");
+        QueryScorer scorer=new QueryScorer(query,"title");
+        SimpleFragmenter fragmenter = new SimpleFragmenter(200);
+        Formatter formatter = new SimpleHTMLFormatter("<font color='yellow'>","</font>");
+        Highlighter highlighter=new Highlighter(formatter,scorer);
+        highlighter.setTextFragmenter(fragmenter);
+        System.out.println(i);
+        rs.append("<table><tbody><tr>");
+        for(int j=0;j<hits.totalHits;j++){
+        	System.out.println(j);
+        	ScoreDoc scoreDoc=hits.scoreDocs[j];
+        	rs.append("<tr>");
+        	Document doc=searcher.doc(scoreDoc.doc);
+        	TokenStream stream=TokenSources.getAnyTokenStream(searcher.getIndexReader(), scoreDoc.doc, "title", luceneAnalyzer);
+    		String fragment;
+    		String title=doc.get("title");
+			try {
+				if(j%2==0)
+					rs.append("<td class=\"odd\">")
+				rs.append("<a href=\""+"http://chinese.pku.edu.cn"+doc.get("URL")+"\">");
+				fragment = highlighter.getBestFragment(stream, title);
+				rs.append("<div class=\"bt\">"+fragment+" </a> </td>");//	System.out.println(fragment);
+			} catch (InvalidTokenOffsetsException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        	System.out.println(doc.get("title"));
+        	//System.out.println(doc.get("id"))URL;	
+        	rs.append(" </div>");
+        
+        }
+        return new String(rs);
+	}
+
+}

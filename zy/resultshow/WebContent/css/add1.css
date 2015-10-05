@@ -1,0 +1,48 @@
+﻿/*=====container==========*/
+.container {
+	margin:auto;
+	position: relative;
+	width:1003px;
+}
+/*=========================*/
+/* Header */
+header {
+	position:relative;
+	margin:auto;
+	width:1003px; 
+	height:103px; 
+	background-image:url(../images/headerbc.jpg);/*=======================zheligaibeij*/
+}
+/*=====================================*/
+.inside {
+	width:1003px;
+	background:#855013;
+	margin: auto;
+	overflow:hidden;
+}
+/*===================================html  body===========================================*/
+
+/*===================================html  body===========================================*/
+/* ======================= ===============mainbox ========================================== */
+.main-box {
+	width: 100%;
+}
+
+/* ======================= ===============mainbox ========================================== */
+/* Footer */
+footer {
+	padding: 20px 0 22px 0;
+	color:rgb(255,0,0);
+	width:1003px;
+	font-size:150%;
+	margin:auto;
+	background-image:url(../images/footerbc.jpg);
+}
+footer .fleft {
+	padding-left: 40px;
+}
+footer .fright {
+	padding-right: 40px;
+}
+
+/*===========================footer====================================*/

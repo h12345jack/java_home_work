@@ -1,0 +1,235 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#table2
+{
+	
+}
+
+#table2 table {
+
+	width: 70%;
+        
+	margin-left:15%;
+
+	margin-top:12px; 
+
+ 	padding:0;
+
+	font-family:"微软雅黑","微软雅黑", "微软雅黑", "微软雅黑";
+ 
+}
+
+#table2 table, tr, th, td {
+
+
+}
+
+caption {
+
+margin:0; 
+
+ 	padding:0;
+
+	height: 40px;
+
+	line-height: 40px;
+
+	text-indent: 28px;
+
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	
+
+	text-align: left;
+
+	letter-spacing: 3px;
+
+	border-top: dashed 1px #c2c2c2;
+
+	border-bottom: dashed 1px #c2c2c2;
+
+}
+
+
+
+/* HEAD */
+
+
+
+thead {
+
+	background-color: #FFFFFF;
+
+	border: none;
+
+}
+
+thead tr th {
+
+	height: 32px;
+
+	line-height: 32px;
+
+	text-align: center;
+
+
+	background-image: url(col_bg.gif);
+
+	background-repeat: repeat-x;
+
+	border-left:solid 1px #FF9900;
+
+	border-right:solid 1px #FF9900;	
+
+	border-collapse: collapse;
+
+	
+
+}
+
+
+
+/* BODY */
+
+
+
+#table2 tbody tr {
+
+
+
+	font-size: 13px;
+
+}
+
+#table2 tbody tr.odd {
+
+	background: rgb(204,204,204);
+
+}
+
+#table2 tbody tr:hover, #table2 tbody tr.odd:hover {
+
+	background: rgb(204,204,204);
+
+}
+
+#table2 tbody tr th, #table2 tbody tr td {
+
+	padding: 6px;
+
+	border: solid 1px #326e87;
+
+}
+
+#table2 tbody tr th {
+
+	background: #1c5d79;
+
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+
+	font-size: 100%;
+
+	padding: 6px;
+
+	text-align: center;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	border-bottom: solid 1px white;
+
+}
+
+#table2 tbody tr th:hover {
+
+	background: #ffffff;
+
+
+
+}
+
+
+
+/* LINKS */
+
+
+
+#table2 table a {
+
+	color: #FF6600;
+
+	text-decoration: none;
+
+	font-size: 110%;
+
+	border-bottom: solid 1px white;
+
+}
+
+#table2 table a:hover {
+
+	color: #FF9900;
+
+	border-bottom: none;
+
+}
+
+
+
+/* FOOTER */
+
+
+
+#table2 tfoot {
+
+	background: #f3f3f3;
+
+	height: 24px;
+
+	line-height: 24px;
+
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;	
+
+	font-size: 100%;
+
+	font-weight: bold;
+
+	color: #555d6d;
+
+	text-align: center;
+
+	letter-spacing: 3px;
+
+	border-top: solid 2px #326e87;
+
+	border-bottom: dashed 1px #c2c2c2;
+
+}
+
+#table2 tfoot tr th, #table2 tfoot tr td {
+
+	/*padding: .1em .6em;*/
+
+	
+
+}
+
+#table2 tfoot tr th {
+
+	border-top: solid 1px #326e87;
+
+}
+
+#table2 tfoot tr td {
+
+	text-align: right;
+
+	
+
+}

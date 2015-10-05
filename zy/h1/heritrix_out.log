@@ -1,0 +1,9 @@
+127.0.0.1 - - [17/Jan/2015:07:54:21 +0000] "GET / HTTP/1.1" 302 0 
+127.0.0.1 - - [17/Jan/2015:07:54:21 +0000] "GET /index.jsp HTTP/1.1" 302 0 
+127.0.0.1 - - [17/Jan/2015:07:54:21 +0000] "GET /login.jsp;jsessionid=6r4hc38liv7b0 HTTP/1.1" 200 2743 
+127.0.0.1 - - [17/Jan/2015:07:54:22 +0000] "GET /css/heritrix.css HTTP/1.1" 200 2101 
+127.0.0.1 - - [17/Jan/2015:07:54:22 +0000] "GET /images/logo.gif HTTP/1.1" 200 889 
+127.0.0.1 - - [17/Jan/2015:07:54:23 +0000] "GET /favicon.ico HTTP/1.1" 404 1214 
+127.0.0.1 - admin [17/Jan/2015:07:54:28 +0000] "POST /j_security_check HTTP/1.1" 302 0 
+127.0.0.1 - admin [17/Jan/2015:07:54:28 +0000] "GET /index.jsp HTTP/1.1" 200 2274 
+127.0.0.1 - admin [17/Jan/2015:07:56:13 +0000] "GET /index.jsp HTTP/1.1" 200 2274 

@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="gbk" import="java.util.Date"%>
+<%@page import="rs1.final1" %>
+<%request.setCharacterEncoding("UTF-8");%>
+<jsp:useBean id="newBean2" class="rs1.final1"/>
+<jsp:setProperty property="*" name="newBean2" />
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <title>科幻电影原声音乐网</title>
+  </head>
+<body>
+<!-- header -->
+<header id="top">
+  <div class="container"> </div>
+</header>
+<!-- header -->
+<%newBean2.theresult(0); %>
+<div class="main-box">
+    <div class="container">
+    <div class="inside">
+     <div id="js">
+      <form action="q1.jsp" method="post">
+      <p><img src="images/ss.png" alt="ss"/><p>
+        <label for="search">找到你想要的信息，请输入你的关键词:</label>
+    <input type="text" name="query">
+    <input class="button" type="submit" value="Search">
+    </form>
+  </div>
+        </div>
+      <div id="huanyihuan">
+      不满意搜索结果？换种搜索方式试试？<a href="fm.html">(分面组配)</a>
+      </div>
+      </div>
+    </div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+    <div class="wrapper">
+        <div class="fleft">Copyright - Team of lmy,lj,dai,huang,yongjun</div>
+        <div class="fright">信息组织课程作业</div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>

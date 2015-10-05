@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>科幻电影原声音乐网</title>
+   <meta charset="utf-8">
+  </head>
+
+<body>
+<!-- header -->
+<header id="top">
+  <div class="container">
+    <h1><a href="fm.html">Be Heard~ </a></h1>
+   
+  </div>
+</header>
+<!-- header -->
+
+<div class="main-box">
+    <div class="container">
+    <div class="inside">
+     <div id="js">
+     <form action="q1.jsp" method="post">
+      <p><img src="images/ss.png" alt="ss"/><p>
+        <label for="search">找到你想要的信息，请输入你的关键词:</label>
+    <input type="text" name="query">
+    <input class="button" type="submit" value="Search">
+    <input type="radio" class="option-input radio" name="flag" value="0" checked="checked" >标题
+	<input type="radio" class="option-input radio" name="flag" value="1" />全文
+    </form>
+  </div>
+     <div id="huanyihuan">
+       不满意搜索结果？换种搜索方式试试？<a href="fm.html">(分面组配)</a>
+     </div>
+      </div>
+    </div>
+ </div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+    <div class="wrapper">
+        <div class="fleft">Copyright - Team of lmy,lj,dai,huang,yongjun</div>
+        <div class="fright">信息组织课程作业</div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>

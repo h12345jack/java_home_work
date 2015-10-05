@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>北京大学中文系站内检索</title>
+   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/add1.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/jg.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/jscss.css" type="text/css" media="all">
+  </head>
+
+<body>
+<!-- header -->
+<header id="top">
+  <div class="container">
+    <h1>北京大学中文系站内检索</h1>
+   
+  </div>
+</header>
+<!-- header -->
+
+<div class="main-box">
+    <div class="container">
+    <div class="inside">
+     <div id="js">
+     <form action="q1.jsp" method="post">
+      <p><img src="images/ss.png" alt="ss"/><p>
+        <label for="search">来自信息管理系的中文系站内检索</label>
+    <input type="text" name="query">
+    <input class="button" type="submit" value="Search">
+    <br/>
+    <input type="radio" class="option-input radio" name="flag" value="0" checked="checked" />标题
+	<input type="radio" class="option-input radio" name="flag" value="1" />全文
+    </form>
+  </div>
+      </div>
+    </div>
+ </div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+    <div class="wrapper">
+        <div class="fleft">Copyright - 黄俊杰,倪少康,童刘奕,冀伟浩,牛嘉诚</div>
+        <div class="fright">Java课程作业</div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>

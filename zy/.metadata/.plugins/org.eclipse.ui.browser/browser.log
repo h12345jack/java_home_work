@@ -1,0 +1,142 @@
+
+1月 18, 2015 20:54:18.27 NEW SESSION
+1月 18, 2015 20:54:18.27 1421585658239	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 20:55:42.21 
+1月 18, 2015 20:55:42.21 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 20:55:42.21 
+1月 18, 2015 20:55:42.21 
+1月 18, 2015 20:55:42.21 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 20:55:42.22 
+1月 18, 2015 20:58:12.63 1421585892626	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 21:17:46.89 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 21:17:46.89 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 21:17:46.89 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 21:18:04.72 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 21:18:04.72 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 21:18:04.72 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 21:18:36.19 
+1月 18, 2015 21:18:36.19 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 21:18:36.19 
+1月 18, 2015 21:18:36.19 
+1月 18, 2015 21:18:36.19 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 21:18:36.19 
+1月 18, 2015 21:18:36.19 
+1月 18, 2015 21:18:36.20 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 21:18:36.20 
+1月 18, 2015 21:18:36.20 
+1月 18, 2015 21:18:36.20 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 21:18:36.20 
+1月 18, 2015 21:23:44.44 1421587424434	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 21:27:04.47 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 21:27:04.47 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 21:27:04.47 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 21:27:41.12 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 21:27:41.12 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 21:27:41.12 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 21:28:58.33 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 21:28:58.33 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 21:28:58.33 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+
+1月 18, 2015 21:39:47.78 NEW SESSION
+1月 18, 2015 21:39:47.78 1421588387778	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 21:57:03.24 
+1月 18, 2015 21:57:03.24 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 21:57:03.24 
+1月 18, 2015 21:57:03.24 
+1月 18, 2015 21:57:03.24 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 21:57:03.24 
+1月 18, 2015 22:03:35.37 1421589815370	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 22:03:47.70 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 22:03:47.71 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 22:03:47.71 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 22:09:40.16 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 22:09:40.16 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 22:09:40.16 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 22:12:37.71 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 22:12:37.71 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 22:12:37.71 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 22:30:42.30 
+1月 18, 2015 22:30:42.30 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:30:42.30 
+1月 18, 2015 22:30:42.30 
+1月 18, 2015 22:30:42.30 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:30:42.31 
+1月 18, 2015 22:30:42.31 console.error: 
+1月 18, 2015 22:30:42.31 
+1月 18, 2015 22:30:42.31 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:30:42.31 
+1月 18, 2015 22:30:42.31 
+1月 18, 2015 22:30:42.31   Message: TypeError: this.docShell is null
+1月 18, 2015 22:30:42.31   Stack:
+1月 18, 2015 22:30:42.31     TabActor.prototype.chromeEventHandler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:603:5
+1月 18, 2015 22:30:42.31 exports.HighlighterActor<._getPickerListenerTarget@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:223:5
+1月 18, 2015 22:30:42.31 exports.HighlighterActor<._stopPickerListeners@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:18
+1月 18, 2015 22:30:42.31 exports.HighlighterActor<.cancelPick<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:255:7
+1月 18, 2015 22:30:42.31 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:30:42.32 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1004:19
+1月 18, 2015 22:30:42.32 
+1月 18, 2015 22:30:42.32 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1407:15
+1月 18, 2015 22:30:42.32 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:545:11
+1月 18, 2015 22:30:42.32 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+1月 18, 2015 22:30:42.32 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+1月 18, 2015 22:30:42.32 
+1月 18, 2015 22:30:42.32 TabActor.prototype.chromeEventHandler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:603:5
+1月 18, 2015 22:30:42.32 exports.HighlighterActor<._getPickerListenerTarget@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:223:5
+1月 18, 2015 22:30:42.33 exports.HighlighterActor<._stopPickerListeners@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:236:18
+1月 18, 2015 22:30:42.33 exports.HighlighterActor<.cancelPick<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/highlighter.js:255:7
+1月 18, 2015 22:30:42.33 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1004:19
+1月 18, 2015 22:30:42.33 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1407:15
+1月 18, 2015 22:30:42.33 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:545:11
+1月 18, 2015 22:30:42.33 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+1月 18, 2015 22:30:42.33 makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+1月 18, 2015 22:30:45.79 1421591445787	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 22:35:49.76 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 22:35:49.76 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 22:35:49.76 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 22:36:02.58 
+1月 18, 2015 22:36:02.59 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:36:02.59 
+1月 18, 2015 22:36:02.59 
+1月 18, 2015 22:36:02.59 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:36:02.59 
+1月 18, 2015 22:36:02.59 
+1月 18, 2015 22:36:02.59 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:36:02.59 
+1月 18, 2015 22:36:02.59 
+1月 18, 2015 22:36:02.59 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:36:02.60 
+
+1月 18, 2015 22:36:31.72 NEW SESSION
+1月 18, 2015 22:36:31.72 1421591791715	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 22:37:18.26 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 22:37:18.27 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 22:37:18.27 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 22:37:23.73 
+1月 18, 2015 22:37:23.73 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:37:23.73 
+1月 18, 2015 22:37:23.73 
+1月 18, 2015 22:37:23.73 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:37:23.74 
+1月 18, 2015 22:37:36.46 1421591856461	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 22:37:37.86 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+1月 18, 2015 22:37:37.86 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+1月 18, 2015 22:37:37.86 ns.onContextMenuGlobal@chrome://ntab/content/overlay.js:683:54
+1月 18, 2015 22:42:38.51 
+1月 18, 2015 22:42:38.51 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:42:38.51 
+1月 18, 2015 22:42:38.51 
+1月 18, 2015 22:42:38.51 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:42:38.51 
+1月 18, 2015 22:42:38.52 
+1月 18, 2015 22:42:38.52 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:42:38.52 
+1月 18, 2015 22:42:38.52 
+1月 18, 2015 22:42:38.52 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:42:38.52 
+1月 18, 2015 22:49:10.67 1421592550670	addons.manager	WARN	Exception calling callback: TypeError: aAddon is null (chrome://personas/content/personas.js:364:12) JS Stack trace: PC__startUp/<@personas.js:364:13 < safeCall@AddonManager.jsm:173:5 < getAddonByID_noMoreObjects@AddonManager.jsm:2022:9 < AOC_callNext@AddonManager.jsm:305:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < SocialAddonProvider.getAddonByID@SocialService.jsm:1026:5 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < PL_getAddon@PluginProvider.jsm:122:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < OpenH264Provider.getAddonByID@OpenH264Provider.jsm:356:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < LightweightThemeManager_getAddonByID@LightweightThemeManager.jsm:362:7 < callProviderAsync@AddonManager.jsm:235:12 < getAddonByID_nextObject@AddonManager.jsm:2012:1 < AOC_callNext@AddonManager.jsm:311:7 < getAddonByID_safeCall@AddonManager.jsm:2017:13 < getAddonByID_getVisibleAddonForID@XPIProvider.jsm:3808:7 < makeSafe/<@XPIProviderUtils.js:146:17 < getRepositoryAddon@XPIProviderUtils.js:127:5 < this.XPIDatabase.getAddon/<@XPIProviderUtils.js:1071:9 < Handler.prototype.process@Promise-backend.js:865:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:744:7
+1月 18, 2015 22:49:48.97 
+1月 18, 2015 22:49:48.97 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:49:48.97 
+1月 18, 2015 22:49:48.97 
+1月 18, 2015 22:49:48.97 ###!!! [Child][DispatchAsyncMessage] Error: (msgtype=0xAA0001,name=PTexture::Msg___delete__) Route error: message sent to unknown actor ID
+1月 18, 2015 22:49:48.97 

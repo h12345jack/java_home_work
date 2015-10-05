@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+#fm
+{
+ display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;
+  background: #e8ebee;
+  color: #9faab7;
+  width:100%;
+  position:relative;
+  font-family:"微软雅黑", "Calisto MT";
+  overflow-x:scroll;
+
+}
+
+@-webkit-keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+@-moz-keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+@-o-keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+@keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  margin-right: 0.5rem;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #40e0d0;
+}
+.option-input:checked::before {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  content: '\2714';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+.yihang{
+	margin: 9px auto;
+	text-align:left;
+	position:relative;
+	left:10%;
+}
+.yihang p
+{
+	float:left;
+	font-size:150%;
+	width:8em;
+	color:rgb(153,102,51);
+	text-align:center;
+	border:rgb(153,0,0) solid 2px;
+	line-height:1.2em;
+}
+#tijiao
+{
+	float:right;
+	margin-bottom:2em;
+	margin-right:-15em;
+}
+@-webkit-keyframes greenPulse {
+  from { background-color: #40e0d0; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #4ec6ba; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #38d997; -webkit-box-shadow: 0 0 9px #333; }
+}
+.green.button {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+font-size:200%;
+font:"幼圆";
+font-family:"幼圆","微软雅黑", "Calisto MT";
+-webkit-border-radius: 5px;
+border-radius: 5px; }

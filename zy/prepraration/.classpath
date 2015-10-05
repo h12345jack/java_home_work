@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/htmllexer.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/htmlparser.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/IKAnalyzer2012_u6.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/lucene-highlighter-3.5.0.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/lucene-smartcn-3.5.0.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="F:/学习相关/大二3_上/Java程序设计/Java大作业/zy/zy/jar/tika-app-1.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

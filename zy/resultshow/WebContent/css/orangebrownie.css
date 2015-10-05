@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.itsthetable
+{
+	float: left;
+	margin-left: 4%;
+	width: 50%;
+	margin-top: 40px;
+}
+
+/*===================关于定位======================*/
+
+
+
+
+
+.itsthetable table a:link {
+	color: #CC6633;
+}
+.itsthetable table a:visited {
+	color: #FOFO;
+}
+.itsthetable table a:hover {
+	color: #F0F0F0;
+}
+.itsthetable table a:active {
+	color: #CC6633;
+}
+.itsthetable table a:focus {
+	color: #CC6633;
+}
+.itsthetable table {
+	border: 1px solid #D9D9D9;
+}
+.itsthetable table tr td {
+	padding: 6px 9px;
+	text-align: left;
+}
+.itsthetable table thead th {
+	background-color: #E5E5D8;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #D9D9D9;
+	font-weight: bold;
+	text-align: left;
+	padding: 16px 9px;
+	color: #592C16;
+}
+.itsthetable table tbody td {
+	border-left: 1px solid #D9D9D9;
+}
+.itsthetable table tbody tr.odd {
+	background-color: rgb(204,204,204);
+}
+.itsthetable table tbody tr:hover {
+	color: #333333;
+	background-color: #E5E5D8;
+}
+.itsthetable table tbody tr.odd:hover {
+	color: #333333;
+	background-color: #E5E5D8;
+}
+.itsthetable table tbody td.c1 {
+	width: 50%;
+	font-size: 100%;
+}
+
+.itsthetable table tfoot td, .itsthetable table tfoot th {
+	border-top: 1px solid #ccc;
+	font-weight: bold;
+	color: #F0F0F0;
+	padding: 16px 9px;
+}
+.itsthetable table tfoot tr th{
+	text-align: left;
+	background-color: #F0F0F0;
+}
+.itsthetable table{
+	font-size: 100%;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+}

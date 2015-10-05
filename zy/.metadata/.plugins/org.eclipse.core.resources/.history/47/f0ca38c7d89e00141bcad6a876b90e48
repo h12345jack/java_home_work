@@ -1,0 +1,42 @@
+package testanalyzer;
+import java.io.*; //1行
+import org.apache.lucene.analysis.*; 
+import org.apache.lucene.analysis.standard.StandardAnalyzer;   
+import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer; 
+import org.apache.lucene.analysis.tokenattributes.*; //5行
+import org.apache.lucene.util.Version;   
+import org.wltea.analyzer.lucene.IKAnalyzer;
+public class test1 {
+	public static void main(String[] args)throws Exception  {
+        test1 ad = new test();         
+        String enS="I bought a dress at shop 12.";//10行
+        String chS="我购买了一件衣服。";
+    
+	    StringBuffer tmp=ad.showTokensInfo(chS); 
+	    System.out.println(tmp);
+	}
+	public StringBuffer showTokensInfo(String text) 
+  				throws IOException {//20行
+		StringBuffer token=new StringBuffer();//切分项
+		Analyzer analyzer=new IKAnalyzer(true);
+		TokenStream ts = analyzer.tokenStream("", new StringReader(text)); //对文本进行分析                                   
+		//添加属性
+		CharTermAttribute termAtt = ts.addAttribute(CharTermAttribute.class); 
+		int f=1;//添加切分项文本属性
+		while(ts.incrementToken()) { //遍历切分项及其属性 
+			if(f==1)//第一个没有or
+			{
+				token.append(" movies like '%"+termAtt.toString()+"%' or situation like '%"+termAtt.toString()+"%' or style like '%"+termAtt.toString()+"%' ");//获得切分项文本，并添加到字串中
+				f++;
+			}else
+			{
+				token.append("or movies like '%"+termAtt.toString()+"%' or situation like '%"+termAtt.toString()+"%' or style like '%"+termAtt.toString()+"%' ");//获得切分项文本，并添加到字串中
+			}
+		}
+		System.out.println("原始文本："+text);//显示原始文本
+		System.out.println("切分结果："+token);//显示切分结果//50行
+		ts.close();//关闭切分项流    //55行
+		analyzer.close();
+		return token;
+	}  
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="dealthehtml.mysql_it"/>
+<fullyQualifiedTypeName name="org.apache.lucene.store.FSDirectory"/>
+<fullyQualifiedTypeName name="org.apache.lucene.store.Directory"/>
+<fullyQualifiedTypeName name="org.apache.lucene.index.IndexWriterConfig"/>
+<fullyQualifiedTypeName name="org.apache.lucene.index.IndexWriter"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Document"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Field"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Field.Store"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Field.Index"/>
+<fullyQualifiedTypeName name="org.apache.lucene.document.Field.TermVector"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.highlight.Highlighter"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.highlight.QueryScorer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.highlight.SimpleSpanFragmenter"/>
+<fullyQualifiedTypeName name="org.apache.lucene.search.highlight.TokenSources"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.TokenStream"/>
+</qualifiedTypeNameHistroy>

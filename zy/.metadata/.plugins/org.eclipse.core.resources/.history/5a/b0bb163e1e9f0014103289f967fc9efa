@@ -1,0 +1,118 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="gbk" import="java.util.Date"%>
+<%@page import="rs1.final1" %>
+<%request.setCharacterEncoding("UTF-8");%>
+<jsp:useBean id="newBean2" class="rs1.final1" scope="page"/>
+<jsp:setProperty property="*" name="newBean2" />
+<%
+int pageSize;//一页显示的记录数
+int totalItem=newBean2.getPage(newBean2.getFlag());//记录总数
+int totalPage;//总页数
+int curPage=0;//待显示页码
+pageSize=10;
+//totalItem
+if(newBean2.getFlag()==1)
+totalPage=totalItem%pageSize==0?totalItem/pageSize:totalItem/pageSize+1;
+String strPage=request.getParameter("page");//获得待显示页码
+if(strPage==null)
+{
+ curPage=1;
+}
+else
+{
+ curPage=java.lang.Integer.parseInt(strPage);//将字符串转换成整形
+}
+if(curPage<1)
+{
+ curPage=1;
+}
+
+%>
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <title>科幻电影原声音乐网</title>
+  
+  <style type="text/css">
+.gsc-result-info {
+    text-align: left;
+    color: #999;
+    font-size: 12px;
+    padding-left: 8px;
+    margin: 10px 0 10px 0;
+}
+.gs-result .gs-title, .gs-result .gs-title *{
+    color: #3083A3;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.gs-result a.gs-visibleUrl, .gs-result .gs-visibleUrl {
+    color: #0052FF;
+    text-decoration: none;
+}
+.gs-result .gs-snippet {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    cursor: pointer;
+    color: #07AD00;
+    text-decoration: none;
+    margin-right: 5px;
+    display: inline;
+    border: 1px solid #DDD;
+    padding: 2px 5px 2px 5px;
+}
+</style>
+  </head>
+<body>
+<!-- header -->
+<header id="top">
+  <div class="container"> </div>
+</header>
+<!-- header -->
+
+<div class="main-box">
+    <div class="container">
+    <div class="inside">
+     <div id="js">
+      <form action="q1.jsp" method="post">
+      <p><img src="images/ss.png" alt="ss"/><p>
+        <label for="search">找到你想要的信息，请输入你的关键词:</label>
+    <input type="text" name="query">
+    <input class="button" type="submit" value="Search">
+    <input type="radio" class="option-input radio" name="flag" value="0" >标题
+	<input type="radio" class="option-input radio" name="flag" value="1" />全文
+    </form>
+  </div>
+</div>
+<%=newBean2.theresult(curPage-1) %>
+      <div id="huanyihuan">
+   		<p align="center">
+  	 共<%=totalItem%>个记录,分<%=totalPage%>页显示,当前页是:第<%=curPage%>页<br />
+   	<%if(curPage>1){%><a href="q1.jsp?page=1">首页</a><%}%>&nbsp;&nbsp;
+   	<%if(curPage>1){%><a href="q1.jsp?page=<%=curPage-1%>">上一页</a><%}%>&nbsp;&nbsp;
+   	<%
+   		for(int j=1;j<=totalPage;j++)
+  	 {
+  	  out.print("&nbsp;&nbsp;<a href='q1.jsp?page="+j+"'>"+j+"</a>");
+  	 }
+   %>
+   <%if(curPage<totalPage){%><a href="q1.jsp?page=<%=curPage+1%>">下一页</a><%}%>&nbsp;&nbsp;
+   <%if(totalPage>1){%><a href="q1.jsp?page=<%=totalPage%>">末页</a><%}%>
+      </div>
+      </div>
+    </div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+    <div class="wrapper">
+        <div class="fleft">Copyright - Team of lmy,lj,dai,huang,yongjun</div>
+        <div class="fright">信息组织课程作业</div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>

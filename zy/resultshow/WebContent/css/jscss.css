@@ -1,0 +1,300 @@
+@font-face{
+	font-family: 'f1';
+	src:url(../font/sx.ttf);
+}
+
+#js {
+	background-color: #f1f1f1;
+	margin: 0;
+}
+
+#js {
+	font-family:"f1","微软雅黑";
+	margin: 30px auto 40px auto;
+	width: 80%;
+	text-align: center;
+	overflow:hidden;
+	font-size:1.5em;
+}
+#js a {
+	color: #4183c4;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+#js h3 {
+	color: #666;
+}
+#js input[type=text] {
+	min-height: 32px;
+	margin: 0;
+	padding: 7px 8px;
+	outline: none;
+	color: #333;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.15s ease-in;
+	-webkit-transition: all 0.15s ease-in 0;
+	vertical-align: middle;
+	width: 80%;
+}
+#js .button {
+	font-size:1.5em;
+	font-family: Consolas,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: relative;
+	display: inline-block;
+	padding: 7px 15px;
+	margin-top:1em;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #990000;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+	white-space: nowrap;
+	background-color: #eaeaea;
+	background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+	background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+	background-image: linear-gradient(#fafafa, #eaeaea);
+	background-repeat: repeat-x;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	border-bottom-color: #c5c5c5;
+	box-shadow: 0 1px 3px rgba(0,0,0,.05);
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-appearance: none;
+}
+#js input[type=text] {
+	font-size: 1.5em;
+	width: 60%;
+	margin-top:1em;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+#js.button:hover,  #js.button:active {
+	background-position: 0 -15px;
+	border-color: #ccc #ccc #b5b5b5;
+}
+#js.button:active {
+	background-color: #dadada;
+	border-color: #b5b5b5;
+	background-image: none;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.15);
+}
+  #js input[type=text]:focus,  #js input[type=password]:focus {
+	outline: none;
+	border-color: #51a7e8;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5);
+	width: 80%;
+}
+#js label[for=search] {
+	display: block;
+	text-align: center;
+}
+#js label {
+	font-family:"微软雅黑";
+	font-size:1em;
+	font-weight: 500;
+	padding: 15px 0;
+	color:#990000;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+#fm
+{
+ display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;
+  background: #e8ebee;
+  color: #9faab7;
+  width:100%;
+  position:relative;
+  font-family:"微软雅黑", "Calisto MT";
+  overflow-x:scroll;
+
+}
+
+@-webkit-keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+@-moz-keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+@-o-keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+@keyframes click-wave {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0.0;
+  }
+}
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  margin-right: 0.5rem;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #cc0000;
+}
+.option-input:checked::before {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  content: '\2764';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #cc0000;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+.yihang{
+	margin: 9px auto;
+	text-align:left;
+	position:relative;
+	left:10%;
+}
+.yihang p
+{
+	float:left;
+	font-size:150%;
+	width:8em;
+	color:rgb(153,102,51);
+	text-align:center;
+	border:rgb(153,0,0) solid 2px;
+	line-height:1.2em;
+}
+#tijiao
+{
+	float:right;
+	margin-bottom:2em;
+	margin-right:-15em;
+}
+@-webkit-keyframes greenPulse {
+  from { background-color: #cc0000; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #4ec6ba; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #38d997; -webkit-box-shadow: 0 0 9px #333; }
+}
+.green.button {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+font-size:120%;
+font:"幼圆";
+font-family:"幼圆","微软雅黑", "Calisto MT";
+-webkit-border-radius: 5px;
+border-radius: 5px; }

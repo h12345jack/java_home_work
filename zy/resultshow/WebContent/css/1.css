@@ -1,0 +1,113 @@
+﻿/*=====container==========*/
+.container {
+	 margin-left:auto;
+        margin-right:auto;
+	position: relative;
+	width: 70%;
+}
+/*=========================*/
+/* Header */
+header {
+	height: 200px;
+	background-image:url(../images/headerbc.jpg);/*=======================zheligaibeij*/
+}
+/*=====================================*/
+.inside {
+	width: 90%;
+	background: #e5e2e2;
+	padding-top: 32px;
+	padding-right: 17px;
+	padding-bottom: 50px;
+	padding-left: 17px;
+	margin: auto;
+	min-height:800px;
+	overflow:hidden;
+}
+/*===================================html  body===========================================*/
+html, body {
+	height: 100%;
+}
+body {
+	background: #212222;
+	font-family: "华文新魏", "微软雅黑 Light", "华文细黑", "楷体", "华文琥珀", "华文行楷", "华文楷体";
+	font-size: 100%;
+	line-height: 1.125em;
+	color: #242424;
+}
+/*===================================html  body===========================================*/
+/* ======================= ===============mainbox ========================================== */
+.main-box {
+	border-top: 5px solid #eaeaea;
+	background: rgb(211, 222, 229);
+	width: 100%;
+	min-height:650px;
+	
+}
+.main-box .container {
+	background: #d9d9d9;
+}
+/* ======================= ===============mainbox ========================================== */
+/* Footer */
+footer {
+	padding: 20px 0 22px 0;
+	border-top: 5px solid #eee;
+	position: relative;
+	bottom: 2px;
+	color: #fff;
+	font-size:150%;
+	line-height:1.5em;
+}
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+
+
+/*===========================footer====================================*/
+#huanyihuan{
+	float:right;
+	font-size:1.5em;
+	margin-right:7em;
+	margin-top:2em;
+	margin-bottom:2em;
+	color:rgb(255,51,102);
+}
+.figure{
+	float: left;
+	margin-left: 4%;
+	margin-top: 40px;
+	background: rgb(102,102,102);
+	padding: 1px;
+	width: 40%;
+	height: auto;
+}
+#postname{
+	position: absolute;
+	bottom: -59px;
+	text-align: center;
+	width: 100%;
+	color: rgb(0,102,51);
+	font-size: 150%;
+}
+.ttt
+{
+	margin-top:40px;
+}
+.kao
+{
+	position: relative;
+	border-left: 122;
+}
+pre{
+	text-align: center;
+	max-height: 470px;
+	overflow: scroll;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+.mtitle
+{
+	padding-left:4em;
+}

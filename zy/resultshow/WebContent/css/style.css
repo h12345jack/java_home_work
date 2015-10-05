@@ -1,0 +1,50 @@
+﻿/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display: block;
+}
+mark, rp, rt, ruby, summary, time {
+	display: inline
+}
+/*============================================*/
+@font-face{
+	
+	font-family: "f2";
+	src:url(../font/TpldKhangXiDictTrial.otf);
+}
+
+#xytd
+{
+	font-family:"华文行楷", "楷体", "微软雅黑";
+	font-size:1.5em;
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-family:"f2","华文新魏", "微软雅黑 Light";
+	font-size: 1.5em;
+	line-height: 1em;
+	color: #fff;
+	font-weight: normal;
+	padding: 6px 0 8px 50px;
+	position: absolute;
+	right:30px;
+	top:40px;
+}
+
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+html, body {
+	height: 100%;
+}
+body {
+	font-family: "华文新魏", "微软雅黑 Light", "华文细黑", "楷体", "华文琥珀", "华文行楷", "华文楷体"，"Trebuchet MS", Trebuchet, Arial, sans-serif;
+}

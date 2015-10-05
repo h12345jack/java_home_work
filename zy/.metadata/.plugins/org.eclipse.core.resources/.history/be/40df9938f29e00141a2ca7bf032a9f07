@@ -1,0 +1,11 @@
+package querytheindex;
+import java.io.*; //1ÐÐ
+import org.apache.lucene.analysis.*; 
+import org.apache.lucene.analysis.standard.StandardAnalyzer;   
+import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer; 
+import org.apache.lucene.analysis.tokenattributes.*; //5ÐÐ
+import org.apache.lucene.util.Version;   
+import org.wltea.analyzer.lucene.IKAnalyzer;
+public class q1 {
+
+}

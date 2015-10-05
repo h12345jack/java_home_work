@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="gbk" import="java.util.Date"%>
+<%@page import="rs1.final1" %>
+<%request.setCharacterEncoding("UTF-8");%>
+<jsp:useBean id="newBean2" class="rs1.final1"/>
+<jsp:setProperty property="*" name="newBean2" />
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <title>科幻电影原声音乐网</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/add1.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/jg.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/jscss.css" type="text/css" media="all">
+  </head>
+
+<body>
+<!-- header -->
+<header id="top">
+  <div class="container">
+    <h1><a href="fm.html">Be Heard~ </a></h1>
+   
+  </div>
+</header>
+<!-- header -->
+
+<div class="main-box">
+    <div class="container">
+    <div class="inside">
+     <div id="js">
+      <form action="js.jsp" method="post">
+      <p><img src="images/ss.png" alt="ss"/><p>
+        <label for="search">找到你想要的信息，请输入你的关键词:</label>
+    <input type="text" name="query">
+    <input class="button" type="submit" value="Search">
+    </form>
+  </div>
+        <div id="result">
+        <p><%=newBean2.getQuery() %>的检索结果</p>
+        <table id="jg">
+  <thead>
+    <tr>
+      <th width="25%">歌名</th>
+      <th width="8%">心情</th>
+      <th width="10%">电影</th>
+      <th >场景</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+  <%out.print(newBean2.interesting_search());%>
+  </tbody>
+</table>
+
+        </div>
+      <div id="huanyihuan">
+      不满意搜索结果？换种搜索方式试试？<a href="fm.html">(分面组配)</a>
+      </div>
+      </div>
+    </div>
+ </div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+    <div class="wrapper">
+        <div class="fleft">Copyright - Team of lmy,lj,dai,huang,yongjun</div>
+        <div class="fright">信息组织课程作业</div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>
