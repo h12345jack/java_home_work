@@ -21,6 +21,6 @@ E:.
 5.	包括建索引，网页解析，分析器测试等
 
 ###resultshow  最后的展示项目
-###www.im.pku.edu.cn.rar  信息管理系网站打包
+
 ###chinese.pku.edu.cn.rar 中文系网站打包
 ###dzy.sql
